@@ -1,0 +1,39 @@
+
+.nav-link{
+	color: #F5F4E3;
+}
+.main-logo{
+	color: #DED319;
+}
+.main-logo:focus,.main-logo:hover{
+	color: #DED319;
+}
+.btn-my{
+	color:#DED319;
+	border-color:#DED319;
+}
+.btn-my:hover{
+	color:#000;
+	background-color:#DED319;
+	border-color:#DED319;
+}
+.btn-my.focus,.btn-my:focus{
+	box-shadow:0 0 0 .2rem rgba(222,211,25,.5);
+}
+.btn-my.disabled,.btn-my:disabled{
+	color:#DED319;background-color:transparent
+}
+.show>.btn-my.dropdown-toggle{
+	color:#000;
+	background-color:#DED319;
+	border-color:#DED319;
+}
+.show>.btn-my.dropdown-toggle:focus{
+	box-shadow:0 0 0 .2rem rgba(222,211,25,.5);
+}
+.navbar-color .navbar-nav .nav-link{color:rgba(255,255,255,.5)}
+.navbar-color .navbar-nav .nav-link:hover{color:rgba(255,255,255,.75)}
+.navbar-color .navbar-nav .nav-link.disabled{color:rgba(255,255,255,.25)}
+.navbar-color .navbar-nav .show>.nav-link{color:#fff}
+.navbar-color .navbar-toggler{color:rgba(255,255,255,.5);border-color:rgba(255,255,255,.1)}
+.navbar-color .navbar-toggler-icon{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")}

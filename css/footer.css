@@ -1,0 +1,31 @@
+footer{
+	position: fixed;
+	bottom: 0;
+	background: #DED319;
+	padding: 0 auto;
+	color: black;
+	text-align: center;
+}
+footer a{
+	color: black;
+}
+footer a:hover{
+	color: #333333;
+	text-decoration: none;
+}
+.footer{
+	display: inline-flex;
+	flex-direction: row;
+}
+.footer-item{
+	color: black;
+	padding: 0 10px;
+	display: inline-block;
+}
+.facebook-logo{
+	width: 20px;
+}
+.instagram-logo{
+	width: 50px;
+	padding: 1px -10px 0 -10px;
+}
