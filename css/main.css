@@ -1,13 +1,13 @@
 body {
-	background: #888888;
-	background-image: url("../pic/background/outlet-tag.png");
+	background: #edb83b;
+	/*background-image: url("../pic/background/outlet-tag.png");
 	background-position: center;
-	background-size: 192px;
+	background-size: 192px;*/
 }
 .grid-container{
 	/*padding-top: 56px;*/
 	display: grid;
-	grid-template-columns: 100% ;
+	/*grid-template-columns: 100% ;
 	grid-template-rows:19% 19% 19% 19% 19% 19%;
 	grid-template-areas:
 		"women"
@@ -15,32 +15,13 @@ body {
 		"kids"
 		"sko"
 		"brugskunst"
-		"andet"
+		"andet"*/
 }
 .grid-item{
 	color: black;
 	/*border: 2px solid black;
 	border-radius: 10%;
 	margin: 5%;*/
-}
-.women{
-	grid-area: women;
-}
-.men{
-	grid-area: men;
-}
-.kids{
-	grid-area: kids;
-}
-.sko{
-	grid-area: sko;
-}
-.brugskunst{
-	grid-area: brugskunst;
-}
-.andet{
-	grid-area: andet;
-}
 h2{
 	opacity: 100%;
 	color: #DED319;
