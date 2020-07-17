@@ -1,15 +1,21 @@
 body {
-	background: #edb83b;
+	background: rgba(255, 247, 232, 0.00);
+	font-family: Helvetica neue, Helvetica, Arial, sans-serif;
 	/*background-image: url("../pic/background/outlet-tag.png");
 	background-position: center;
 	background-size: 192px;*/
 }
-.grid-container{
-	/*padding-top: 56px;*/
+.body{
+
+}
+iframe[seamless] {
+	border: none;
+}
+.main-grid{
 	display: grid;
 	/*grid-template-columns: 100% ;
 	grid-template-rows:19% 19% 19% 19% 19% 19%;
-	grid-template-areas:
+	grid-template-areas:s
 		"women"
 		"men"
 		"kids"
@@ -17,20 +23,6 @@ body {
 		"brugskunst"
 		"andet"*/
 }
-.grid-item{
+.main-grid-item {
 	color: black;
-	/*border: 2px solid black;
-	border-radius: 10%;
-	margin: 5%;*/
-h2{
-	opacity: 100%;
-	color: #DED319;
-	text-align: center;
-	font-family: Verdana;
-	margin: 5px;
-	margin-top: 50px;
-	font-weight: bold;
-	font-size: 30px;
-	text-decoration: none;
-	text-shadow: 0 0 5px black;
 }

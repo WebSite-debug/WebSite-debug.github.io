@@ -1,85 +1,9 @@
 @media screen and (min-width: 1900px){ /*full screen*/
-	.grid-container{
-		grid-template-columns: 50% 50%;
-		grid-template-rows:38% 38% 38%;
-		grid-template-areas:
-			"women men"
-			"kids sko"
-			"brugskunst andet"
-	}
-	.panel-row{
-		margin: 1%;
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 10% 400px 400px;
-		grid-row-gap: 50px;
-		grid-template-areas:
-			"header header"
-			"pic1 pic2"
-			"pic3 pic4"
-	}
+
 }
 @media screen and (max-width: 1130px){ /* taplet*/
-	.grid-top{
-		padding-top: 60px;
-		display: grid;
-		grid-template-columns: 50% 50%;
-		grid-template-rows: 1fr 1fr 1fr;
-		grid-template-areas:
-			"top-women top-men" 
-			"top-kids top-sko" 
-			"top-andet top-brug"
 
-	}
-	.panel-row{
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 10% 400px 400px;
-		grid-row-gap: 50px;
-		grid-template-areas:
-			"header header"
-			"pic1 pic2"
-			"pic3 pic4"
-	}
 }
 @media screen and (max-width: 750px){ /* phone */ 
-	.grid-top{
-		padding-top: 60px;
-		display: grid;
-		grid-template-columns: 100%;
-		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-		grid-template-areas:
-			"top-women"
-			"top-men" 
-			"top-kids"
-			"top-sko" 
-			"top-andet"
-			"top-brug"
 
-	}
-	.top-grid-item{	
-		background: black;
-		width: 90%;
-		height:75px;
-	}
-	.toptext{
-		position: relative;
-		top: 25%;
-	}
-	.panel-row{
-		padding-top: 55px;
-		display: grid;
-		grid-template-columns: 100%;
-		grid-template-rows: 10% 400px 400px 400px 400px;
-		grid-row-gap: 50px;
-		grid-template-areas:
-			"header"
-			"pic1"
-			"pic2"
-			"pic3" 
-			"pic4"
-	}
-	.grid-container{
-		padding-bottom: 1050px;
-	}
 }
