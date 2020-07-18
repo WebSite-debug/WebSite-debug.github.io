@@ -7,7 +7,7 @@ footer {
 	width: 100%;
 	align-content: center;
 }
-	footer < div {
+	footer > div {
 		border: 2px solid #4CAF50;
 		display: block;
 		background: Blue;
