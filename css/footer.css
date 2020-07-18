@@ -10,7 +10,7 @@ footer {
 	footer > div {
 		display: inline-block;
 		text-align: center;
-		align-items: center;
+		position: center;
 		background: Blue;
 		width: 30%;
 		margin: auto;
