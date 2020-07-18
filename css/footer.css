@@ -7,12 +7,12 @@ footer {
 	width: 100%;
 	align-content: center;
 }
-	footer > div {
+	footer > li {
 		display: inline-block;
 		text-align: center;
-		position: center;
 		background: Blue;
-		width: 30%;
+		width: 25%;
+		padding: 5px;
 		margin: auto;
 	}
 .footer-grid{
