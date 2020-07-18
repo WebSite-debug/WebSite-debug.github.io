@@ -5,12 +5,13 @@ footer {
 	bottom: 0px;
 	padding: 10px;
 	width: 100%;
-	align-content: center;
+	display: inline-flex;
+	flex-direction: row;
 }
-	footer > li {
+	footer > div {
+		background: Blue;
 		display: inline-block;
 		text-align: center;
-		background: Blue;
 		width: 25%;
 		padding: 5px;
 		margin: auto;
