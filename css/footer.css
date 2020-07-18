@@ -5,7 +5,11 @@ footer {
 	bottom: 0px;
 	padding: 10px;
 	width: 100%;
-	text-align: center;
+	align-content: center;
+}
+footer div {
+	border: 2px solid #4CAF50;
+	display: block;
 }
 .footer-grid{
 
