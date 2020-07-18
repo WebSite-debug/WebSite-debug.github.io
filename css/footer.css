@@ -1,6 +1,9 @@
-.footer{
+footer {
 	background: Black;
 	color: red;
+	position: absolute;
+	left: 0px;
+	bottum: 0px;
 }
 .footer-grid{
 
