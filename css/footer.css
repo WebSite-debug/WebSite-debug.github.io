@@ -2,8 +2,9 @@ footer {
 	background: Black;
 	color: red;
 	position: absolute;
-	left: 0px;
 	bottum: 0px;
+	margin: 10px;
+	width: auto;
 }
 .footer-grid{
 
