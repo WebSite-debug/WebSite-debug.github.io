@@ -7,10 +7,11 @@ footer {
 	width: 100%;
 	align-content: center;
 }
-footer < div{
-	border: 2px solid #4CAF50;
-	display: block;
-}
+	footer < div {
+		border: 2px solid #4CAF50;
+		display: block;
+		background: Blue;
+	}
 .footer-grid{
 
 }
