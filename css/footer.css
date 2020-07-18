@@ -7,8 +7,8 @@ footer {
 	width: 100%;
 	align-content: center;
 }
-	footer > div {
-		display: block;
+	footer > li {
+		display: inline-block;
 		text-align: center;
 		background: Blue;
 		margin: auto;
